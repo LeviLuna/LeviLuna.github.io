@@ -391,7 +391,7 @@ hr {
   display: inline-block;
 }
 .flexslider .slider-caption p {
-  color: deepskyblue;
+  color: dimgray;
   text-transform: uppercase;
   font-size: 20px;
   margin-top: 20px;
@@ -473,11 +473,11 @@ hr {
 @media screen and (max-width: 767px) {
   .main-header {
     top: 0;
-	  background-color: deepskyblue;
+	  background-color: dimgray;
   }
   .site-header {
     margin-top: 40px;
-	  background-color: deepskyblue;
+	  background-color: dimgray;
   }
   .logo-wrapper {
     float: left;
