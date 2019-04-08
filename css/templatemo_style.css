@@ -7,19 +7,31 @@ http://www.templatemo.com/tm-406-flex
 */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
- 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+	
+}
 
 body {
   line-height: 1;
-    
+	
+}
 
+.blue {
+	color: #06C;
 }
 
 .green {
 	color: #090;
 }
 
-
+ol,
+ul {
+  list-style: none;
+}
 
 blockquote,
 q {
@@ -41,6 +53,7 @@ html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+	background-color: deepskyblue;
 }
 
 a:focus {
@@ -50,7 +63,7 @@ a:focus {
 
 a:active {
   text-decoration: none;
-}
+}v
 
 article,
 aside,
@@ -148,8 +161,8 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: .83em;
   line-height: 1.75;
-  color: #666666;
-  background-color: white;
+  color: white;
+  background-color: dimgray;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
 }
@@ -168,7 +181,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", Arial, sans-serif;
-  color: royalblue;
+  color: deepskyblue;
 }
 
 *, *:before, *:after {
@@ -203,11 +216,13 @@ textarea:focus {
 
 .text-center {
   text-align: center;
+	background-color: 
+		
 }
 
 .main-btn {
-  color: white;
-  border: 1px solid white;
+  color: deepskyblue;
+  border: 1px solid deepskyblue;
   padding: 12px 20px;
   text-transform: uppercase;
   font-weight: 700;
@@ -224,18 +239,21 @@ hr {
 
 .site-header ul.social-icons {
   position: relative;
+	background-color: ;
   z-index: 11;
   margin: 30px 0;
+	
 }
 .site-header ul.social-icons li {
   display: inline-block;
-  margin: 0 2px;
+	background-color: ;
+  margin: 0 20px;
 }
 .site-header ul.social-icons li a {
   width: 36px;
   height: 36px;
   background-color: white;
-  color: #444444;
+  color: deepskyblue;
   text-align: center;
   line-height: 36px;
   border-radius: 18px;
@@ -246,7 +264,8 @@ hr {
 .main-header {
   position: fixed;
   width: 100%;
-  margin: 0 auto;
+	background-color: deepskyblue
+  margin: 0 ;
   z-index: 1000;
   top: 94px;
   -webkit-transition: all 150ms ease-in-out;
@@ -264,7 +283,7 @@ hr {
 }
 
 #menu-wrapper {
-  background-color: dodgerblue;
+  background-color: ;
   overflow: hidden;
   -moz-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.07);
   -webkit-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.07);
@@ -274,17 +293,19 @@ hr {
 .logo-wrapper {
   background: url(../images/logo.png) no-repeat;
   height: 100px;
-  background-position: 15px;
+	
+  background-position: 4px;
 }
 .logo-wrapper a {
   display: inline-block;
   overflow: hidden;
-  padding-left: 130px;
-  line-height: 100px;
+  padding-left: 100px;
+	height: 500px;
+  line-height: 50px;
   text-transform: uppercase;
-  color: #ec523f;
-  font-size: 32px;
-  font-weight: 700;
+  color: deepskyblue;
+  font-size:60px;
+  font-weight: 1000;
 }
 
 .main-menu ul li {
@@ -292,18 +313,18 @@ hr {
   margin: 0 20px;
 }
 .main-menu ul li:last-child {
-  margin-right: 35px;
+  margin-right: 80px;
 }
 .main-menu ul li a {
   text-transform: uppercase;
-  font-size: 14px;
-  color: #444444;
+  font-size: 20px;
+  color: whitesmoke;
   line-height: 100px;
   padding-top: 37px;
 }
 .main-menu ul li.active a {
-  border-top: 3px solid #ec523f;
-  color: #ec523f;
+  border-top: 100px solid white ;
+  color: white;
 }
 
 .toggle-menu {
@@ -315,10 +336,10 @@ hr {
   text-align: center;
   line-height: 36px;
   font-size: 14px;
-  background: #EC523F;
+  background:deepskyblue;
   display: inline-block;
-  color: white;
-  cursor:pointer;
+  color: lawngreen;
+  cursor:alias;
 }
 
 /*.menu-responsive {
@@ -341,6 +362,7 @@ hr {
 .flexslider {
   position: relative;
   top: -96px;
+	
 }
 .flexslider .overlay {
   position: absolute;
@@ -362,27 +384,27 @@ hr {
 .flexslider .slider-caption h2 {
   color: white;
   text-transform: uppercase;
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 70px;
+  font-weight: 900;
   border-bottom: 1px solid white;
   padding-bottom: 10px;
   display: inline-block;
 }
 .flexslider .slider-caption p {
-  color: white;
+  color: deepskyblue;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 20px;
   margin-bottom: 26px;
   display: block;
 }
 .flexslider .slider-caption a.slider-btn {
   color: white;
-  background-color: #ec523f;
+  background-color: lawngreen;
   padding: 12px 20px;
-  border-radius: 4px;
+  border-radius: 100px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 900;
 }
 @media screen and (min-width: 989px) {
   .flexslider .slider-caption {
@@ -451,9 +473,11 @@ hr {
 @media screen and (max-width: 767px) {
   .main-header {
     top: 0;
+	  background-color: deepskyblue;
   }
   .site-header {
     margin-top: 40px;
+	  background-color: deepskyblue;
   }
   .logo-wrapper {
     float: left;
@@ -463,6 +487,7 @@ hr {
   }
   .flexslider {
     margin-top: 80px;
+	  
   }
 }
 
@@ -475,11 +500,13 @@ hr {
 
 .content-section {
   margin-top: 80px;
+	background-color: dimgray;
   padding-top: 60px;
 }
 
 .heading-section {
   margin-bottom: 60px;
+	background-color: dimgray;
 }
 .heading-section h2 {
   font-size: 28px;
@@ -489,15 +516,15 @@ hr {
   display: inline-block;
 }
 .heading-section p {
-  color: #444444;
+  color: white;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 300px;
   text-transform: uppercase;
   margin-top: 10px;
 }
 
 .small-text {
-  color: #aaaaaa;
+  color: white;
 }
 
 .space-fixed {
@@ -509,6 +536,7 @@ hr {
 
 .content-section#services {
   margin-top: 0px;
+	background-color: dimgray
 }
 
 .service-item {
@@ -528,6 +556,7 @@ hr {
 
 .service-item .service-icon {
   font-size: 3em;
+	
   padding: 110px 0;
 }
 .service-item .service-content {
@@ -565,19 +594,20 @@ hr {
 }
 
 #service-1 {
-  background-color: #1abc9c;
+  background-color: deepskyblue;
+	
 }
 
 #service-2 {
-  background-color: #e67e22;
+  background-color: deepskyblue;
 }
 
 #service-3 {
-  background-color: #3498db;
+  background-color: deepskyblue;
 }
 
 #service-4 {
-  background-color: #2ecc71;
+  background-color: deepskyblue;
 }
 
 .portfolio-item {
@@ -588,16 +618,16 @@ hr {
   overflow: hidden;
 }
 .portfolio-item .portfolio-thumb img {
-  width: 100%;
+  width: 110%;
 }
 .portfolio-item .portfolio-thumb .portfolio-overlay {
-  background-color: #ec523f;
+  background-color: deepskyblue;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  padding: 25px;
+  padding: 2px;
   text-align: center;
   color: white;
   opacity: 0;
@@ -610,13 +640,13 @@ hr {
   font-size: 18px;
   text-transform: uppercase;
   color: white;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+  padding-bottom: 15px;
+  margin-bottom: 1px;
   display: inline-block;
   border-bottom: 1px solid white;
 }
 .portfolio-item .portfolio-thumb .portfolio-overlay a.expand {
-  margin-top: 15px;
+  margin-top: 1px;
   width: 36px;
   height: 36px;
   border-radius: 18px;
@@ -657,7 +687,7 @@ hr {
   text-align: center;
   top: 0;
   left: 0;
-  background-color: #ec523f;
+  background-color: dimgray;
   color: white;
   opacity: 0;
   visibility: hidden;
@@ -668,10 +698,10 @@ hr {
 .team-member .member-thumb .team-overlay h3 {
   font-size: 18px;
   text-transform: uppercase;
-  color: white;
+  color: deepskyblue;
   display: inline-block;
   padding-bottom: 10px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
   margin-top: 64px;
 }
 .team-member .member-thumb .team-overlay span {
@@ -690,9 +720,9 @@ hr {
 .team-member .member-thumb .team-overlay ul.social li a {
   width: 36px;
   height: 36px;
-  background-color: white;
+  background-color: ;
   line-height: 40px;
-  color: #ec523f;
+  color: deepskyblue;
   border-radius: 18px;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
@@ -730,27 +760,30 @@ hr {
   padding-left: 15px;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: #ec523f;
+  background-color: deepskyblue;
   box-shadow: none;
 }
 
 .googlemap-wrapper {
   height: 380px;
   margin-bottom: 40px;
+	background-color: lawngreen
 }
 
 .map-canvas {
   height: 380px;
-  border: 10px solid #efefef;
+  border: 10px solid #13344553214;
 }
 
 .contact-info {
   margin-top: 40px;
+	background-color: lawngreen
 }
 
 .contact-form input {
   width: 100%;
   margin-bottom: 15px;
+	
 }
 .contact-form textarea {
   width: 100%;
@@ -760,17 +793,23 @@ hr {
 .contact-form .mainBtn {
   margin-top: 15px;
   color: white;
-  background-color: #ec523f;
+  background-color: deepskyblue;
   text-transform: uppercase;
   border: 0;
 }
 
 #go-top {
-  background-color: #ec523f;
+  background-color: deepskyblue;
   color: white;
+	border-color: white;
+	
+	
   padding: 15px 40px;
   text-transform: uppercase;
   font-weight: 700;
+}
+#widget widget_recent_entries{
+	left: auto
 }
 
 #footer {

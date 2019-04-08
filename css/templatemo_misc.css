@@ -86,7 +86,7 @@ html[xmlns] .slides {
 *********************************/
 .flexslider {
   margin: 0 0;
-  background: #eee;
+  background: dimgray;
   position: relative;
   zoom: 1;
 }
