@@ -303,7 +303,7 @@ hr {
 	height: 500px;
   line-height: 50px;
   text-transform: uppercase;
-  color: deepskyblue;
+  color: white;
   font-size:60px;
   font-weight: 1000;
 }
@@ -336,7 +336,7 @@ hr {
   text-align: center;
   line-height: 36px;
   font-size: 14px;
-  background:deepskyblue;
+  background:dimgray;
   display: inline-block;
   color: lawngreen;
   cursor:alias;
